@@ -8,13 +8,29 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <artifactId>boot-test</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>generic-api</module>
+        <module>generic-consumer</module>
+        <module>generic-provider</module>
+    </modules>
+    <artifactId>dubbo3-generic-showcase</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-reload4j</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -21,7 +21,7 @@
         <module>dubbo-api-showcase</module>
         <module>dubbo-boot-showcase</module>
         <module>dubbo-xml-showcase</module>
-        <module>boot-test</module>
+        <module>dubbo3-generic-showcase</module>
     </modules>
     <parent>
         <artifactId>spring-boot-parent</artifactId>
